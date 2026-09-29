@@ -1,0 +1,9 @@
+# created on 2025/06/04
+# wpi (work per ion pair) reference: Tarumi+ 2023 (https://arxiv.org/abs/2302.13061)
+ion,g_ground,ionization energy(eV),wpi(eV)
+I,1,5.69486745,124.0
+II,2,11.0302765,272.0
+III,1,42.88353,444.0
+IV,4,56.280,608.0
+V,5,70.7,822.0
+VI,4,88.0,

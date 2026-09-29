@@ -1,0 +1,70 @@
+set1.43: &set143
+  t_expl: 1.43
+  tem_r: 4.5e+3
+  vel_ph_c: 0.21
+  
+set2.42: &set242
+  t_expl: 2.42
+  tem_r: 3.2e+3
+  vel_ph_c: 0.19
+  
+set3.41: &set341
+  t_expl: 3.41
+  tem_r: 2.8e+3
+  vel_ph_c: 0.17
+  
+set4.40: &set440
+  t_expl: 4.40
+  tem_r: 2.6e+3
+  vel_ph_c: 0.14
+  
+# ejecta parameters
+ejecta_parameters:
+  # <<: *set143
+  <<: *set242
+  # <<: *set341
+  # <<: *set440
+
+  tem_e: null
+  
+  nd_He: null
+  w_geo: 0.5
+
+  nd_env: null
+  frac_e_env_init: 2.5
+  
+  r_heat: null
+
+  pr_esc_rr_gr: 1.0
+  # pr_esc_rr_gr: 0.0
+
+  # with_Sr_pop: LTE
+  with_Sr_pop: NLTE
+  nd_Sr: null
+
+
+fac_tem_e: 1.0
+# fac_tem_e: 1.2
+# fac_tem_e: 0.8
+
+A_env: 100.0
+
+qdot_scale: 1.0
+# qdot_scale: 0.1
+
+vel_in_c: 0.05
+vel_out_c: 0.35
+alpha: 3
+m_ej_msun: 0.03
+
+# args of numpy.logspace for X_He
+X_He_seq:
+  idx_start: -7
+  idx_end: 0
+  step: 100
+
+# args of numpy.logspace for X_Sr
+X_Sr_seq:
+  idx_start: -7
+  idx_end: 0
+  step: 100
