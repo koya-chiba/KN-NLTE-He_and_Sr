@@ -6,7 +6,7 @@ in the early-phase spectra of AT2017gfo,
 simple rate equation solver for strontium (Sr)
 which just solve the ionization balance is implemented. 
 
-## File configuration 
+## File structure 
   - data: data directory
   - base.py: defines solver parameters 
   - constants.py: defines physical constants  
