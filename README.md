@@ -1,4 +1,4 @@
-# KN-NLTE_He_and_Sr
+# KN-NLTE-He_and_Sr
 This repository contains the rate equation solver for helium (He) 
 and strontium (Sr), and the resulting datasets
 used in K. Chiba et al. 2026, [ApJ](https://doi.org/10.3847/1538-4357/aea3fe)
